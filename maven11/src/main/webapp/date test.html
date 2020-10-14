@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.js"></script>
+</head>
+<script>
+    var t=new Date();
+    var maxDay=new Date(t.getFullYear(),(t.getMonth()+1),0).getDate();
+    for (i=0;i<6;i++){
+        var month = (t.getMonth() + 1) + "月";
+        var day = (t.getDate() + i) + "日";
+    }
+    $('div').append(month + day +'<br>');
+</script>
+<body>
+<div></div>
+</body>
+</html>

@@ -5,7 +5,11 @@ URL：http://47.254.78.41:8080/
 
 # 使用技術
     ●Servlet 3.1.0
-    ●JSP 2.1
+    ●Jsp 2.1
+    ●HttpClient4.5.3
+    ●BeanUtils 1.8.3
+    ●JdbcTemplate
+    ●Druid 1.0.9
 ## サーバーサイド
     ●Ｍｙｓｑｌ　5.1.4
     ●Java 1.8
